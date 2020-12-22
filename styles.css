@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   background-image: url(./images/prison.jpg);
+}
+  
+body{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif; 
+    scroll-behavior: smooth;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+ul, li, a{
+    padding: 20px;
+    font-size: 10px;
+    color: #edf0f1;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 10%;
+    background-color: #262626;
+   /* position: fixed;*/
+}
+
+.brand{
+    align-items: flex-end;
+    text-align: end;
+}
+
+nav{
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+span{
+    color: teal;
+}
+
+.hero h1{
+    margin: 200px;
+    display: block;
+    width: fit-content;
+    position: relative;
+    color: whitesmoke;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+.hero p{
+    color: #d3d3d3;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+.hero h2{
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+/*.footer{
+    background-color: #262626;
+    color: #d3d3d3;
+    height: 200px;
+}*/
